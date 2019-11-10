@@ -2,18 +2,21 @@
   "name": "cal",
   "version": "1.0.0",
   "description": "",
-  "main": "calcuatior.test.js",
+  "main": "Coverter.js",
   "dependencies": {
+    "@sentry/node": "^5.7.1",
+    "codecov": "^3.6.1",
     "jest": "^24.9.0"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "jest  && codecov"
+    "test": "jest && codecov"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
   "jest": {
     "coverageDirectory": "./coverage/",
     "collectCoverage": true
   }
 }
+
