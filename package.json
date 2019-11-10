@@ -1,0 +1,19 @@
+{
+  "name": "cal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "calcuatior.test.js",
+  "dependencies": {
+    "jest": "^24.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest  && codecov"
+  },
+  "author": "",
+  "license": "ISC"
+  "jest": {
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true
+  }
+}
