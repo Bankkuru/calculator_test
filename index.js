@@ -5,9 +5,10 @@ Sentry.configureScope(function(scope) {
     scope.setTag("57355120093", "wittawatcheawphoo@gmail.com");
     scope.setUser({
       email: "wittawatcheawphoo@gmail.com",
-      username: 'Wittawat Cheawphoo’'
+      username: 'Wittawat Cheawphoo'
     });
    });
-// const calculator = require('./calculator')
+
 myUndefinedFunction();
 
+//test 
