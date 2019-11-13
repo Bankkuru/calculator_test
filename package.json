@@ -1,10 +1,10 @@
 {
-  "name": "cal",
+  "name": "test",
   "version": "1.0.0",
   "description": "",
   "main": "Coverter.js",
   "dependencies": {
-    "@sentry/node": "^5.8.0",
+    "@sentry/node": "^5.7.1",
     "codecov": "^3.6.1",
     "jest": "^24.9.0"
   },

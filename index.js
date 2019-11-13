@@ -1,5 +1,5 @@
 const Sentry = require('@sentry/node');
-Sentry.init({ dsn: 'https://e2d09f80c0b2445d84ab1fdbb54d512a@sentry.io/1814488' });
+Sentry.init({ dsn: 'https://3c48a5dd148044be9d0753fecd6ce174@sentry.io/1818945' });
 
 Sentry.configureScope(function(scope) {
     scope.setTag("57355120093", "Wittawat Cheawphoo");
